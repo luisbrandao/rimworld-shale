@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Shale</name>
+  <author>Techmago</author>
+  <url>https://github.com/techmago/rimworld-shale</url>
+	<targetVersion>0.18.1527</targetVersion>
+  <description>Mod that adds shale to the world.</description>
+</ModMetaData>
