@@ -5,7 +5,7 @@
     <label>shale</label>
     <description>Shale rock rich is rich in oil and can be extracted for great ammounts of fuel.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Shale</texPath>
+      <texPath>Item/Shale</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>ChunkRock_Drop</soundInteract>
@@ -15,7 +15,6 @@
     <statBases>
       <MarketValue>2.0</MarketValue>
       <Mass>0.8</Mass>
-      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
