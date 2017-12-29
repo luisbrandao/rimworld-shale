@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>
+<Patch> <!-- https://gist.github.com/Zhentar/4a1b71cea45b9337f70b30a21d868782 -->
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "Refinery"]/recipes</xpath>
     <value>
