@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <RecipeDef>
-    <defName>MakeChemfuelFromShale</defName>
-    <label>make chemfuel from shale</label>
+  <RecipeDef> <!-- MakeChemfuelFromOil -->
+    <defName>MakeChemfuelFromOil</defName>
+    <label>make chemfuel from oil</label>
     <description>Make a batch of chemfuel by extracting oil from shale.</description>
     <jobString>Refining chemfuel from shale.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2500</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OilBarrel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OilBarrel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Chemfuel>25</Chemfuel>
+    </products>
+    <recipeUsers>
+  	  <li>Refinery</li>
+  	</recipeUsers>
+  </RecipeDef>
+  <RecipeDef> <!-- MakeOilFromShale -->
+    <defName>MakeOilFromShale</defName>
+    <label>make crude oil from shale</label>
+    <description>fill a barrel with oil extracting it from shale.</description>
+    <jobString>Extracting oil from shale.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>2500</workAmount>
@@ -16,7 +47,7 @@
             <li>Shale</li>
           </thingDefs>
         </filter>
-        <count>18</count>
+        <count>10</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -25,7 +56,72 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Chemfuel>35</Chemfuel>
+      <OilBarrel>20</OilBarrel>
     </products>
+    <recipeUsers>
+      <li>Refinery</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef> <!-- MakePlasticFromOil -->
+    <defName>MakePlasticFromOil</defName>
+    <label>make plastic from crude oil</label>
+    <description>Make some plastic refining it from chemfuel.</description>
+    <jobString>Creating plastic from oil.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2500</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OilBarrel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OilBarrel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Plastic>30</Plastic>
+    </products>
+    <recipeUsers>
+      <li>Refinery</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef> <!-- MakeSynthreadFromPlastic -->
+    <defName>MakeSynthreadFromPlastic</defName>
+    <label>make synthread from plastic</label>
+    <description>Make some synthread refining it from plastic.</description>
+    <jobString>Creating synthread from plastic.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>3500</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plastic</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plastic</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Synthread>10</Synthread>
+    </products>
+    <recipeUsers>
+      <li>Refinery</li>
+    </recipeUsers>
   </RecipeDef>
 </Defs>

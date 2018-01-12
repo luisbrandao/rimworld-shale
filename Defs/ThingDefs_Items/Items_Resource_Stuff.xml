@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="ResourceBase"> <!-- Shale -->
     <defName>Shale</defName>
     <label>shale</label>
     <description>Shale rock rich is rich in oil and can be extracted for great ammounts of fuel.</description>
@@ -13,11 +13,74 @@
     <useHitPoints>false</useHitPoints>
     <deepCommonality>5</deepCommonality>
     <statBases>
-      <MarketValue>2.0</MarketValue>
+      <MarketValue>1.0</MarketValue>
       <Mass>0.8</Mass>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase"> <!-- Oil Barrel -->
+    <defName>OilBarrel</defName>
+    <label>oil Barrel</label>
+    <description>Crude oil barrel.</description>
+    <graphicData>
+      <texPath>Item/barrelA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.8</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase"> <!-- Plastic -->
+    <defName>Plastic</defName>
+    <label>plastic</label>
+    <description>Plastic is the general common term for a wide range of synthetic or semi-synthetic materials used in a huge, range of applications. </description>
+    <graphicData>
+      <texPath>Item/plasticA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>0.9</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>2.0</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+      <SharpDamageMultiplier>0.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+        <li>Manufactured</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <commonality>0.40</commonality>
+      <constructEffect>ConstructWood</constructEffect>
+      <color>(179,244,255)</color>
+      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.3</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>2</Flammability>
+        <WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
+        <DoorOpenSpeed>1.5</DoorOpenSpeed>
+        <MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
   </ThingDef>
 </Defs>
