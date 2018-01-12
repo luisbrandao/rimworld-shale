@@ -4,5 +4,5 @@
   <author>Techmago</author>
   <url>https://github.com/techmago/rimworld-shale</url>
 	<targetVersion>0.18.1527</targetVersion>
-  <description>Mod that adds shale to the world.</description>
+  <description>Mod that adds shale, which can be reffined into oil, to the world.</description>
 </ModMetaData>
