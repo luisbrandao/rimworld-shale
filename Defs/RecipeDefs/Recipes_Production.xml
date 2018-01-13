@@ -124,4 +124,98 @@
       <li>Refinery</li>
     </recipeUsers>
   </RecipeDef>
+
+  <RecipeDef> <!-- BulkMakeChemfuelFromOil -->
+    <defName>BulkMakeChemfuelFromOil</defName>
+    <label>bulk make chemfuel from oil</label>
+    <description>Make a batch of chemfuel by extracting oil from shale.</description>
+    <jobString>Refining chemfuel from shale.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OilBarrel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OilBarrel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Chemfuel>100</Chemfuel>
+    </products>
+    <recipeUsers>
+  	  <li>Refinery</li>
+  	</recipeUsers>
+  </RecipeDef>
+  <RecipeDef> <!-- BulkMakeOilFromShale -->
+    <defName>BulkMakeOilFromShale</defName>
+    <label>bulk make crude oil from shale</label>
+    <description>fill a barrel with oil extracting it from shale.</description>
+    <jobString>Extracting oil from shale.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>1800</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shale</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shale</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <OilBarrel>80</OilBarrel>
+    </products>
+    <recipeUsers>
+      <li>Refinery</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef> <!-- BulkMakePlasticFromOil -->
+    <defName>BulkMakePlasticFromOil</defName>
+    <label>bulk make plastic from crude oil</label>
+    <description>Make some plastic refining it from chemfuel.</description>
+    <jobString>Creating plastic from oil.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OilBarrel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OilBarrel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Plastic>120</Plastic>
+    </products>
+    <recipeUsers>
+      <li>Refinery</li>
+    </recipeUsers>
+  </RecipeDef>
 </Defs>
