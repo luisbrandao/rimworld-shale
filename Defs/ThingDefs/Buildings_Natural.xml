@@ -17,7 +17,7 @@
       <building>
         <isResourceRock>true</isResourceRock>
         <mineableThing>Shale</mineableThing>
-        <mineableYield>40</mineableYield>
+        <mineableYield>25</mineableYield>
         <mineableScatterCommonality>1</mineableScatterCommonality>
         <mineableScatterLumpSizeRange>
           <min>25</min>
