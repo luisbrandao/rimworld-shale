@@ -47,7 +47,7 @@
             <li>Shale</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>35</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -172,7 +172,7 @@
             <li>Shale</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>140</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
