@@ -27,6 +27,15 @@
                     <max>100</max>
                 </countRange>
             </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>Plastic</li>
+                </thingDef>
+                <countRange>
+                    <min>20</min>
+                    <max>100</max>
+                </countRange>
+            </li>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
@@ -48,6 +57,15 @@
                 <countRange>
                     <min>100</min>
                     <max>400</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>Plastic</li>
+                </thingDef>
+                <countRange>
+                    <min>200</min>
+                    <max>600</max>
                 </countRange>
             </li>
         </value>
