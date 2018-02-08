@@ -87,7 +87,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Plastic>30</Plastic>
+      <Plastic>40</Plastic>
     </products>
     <recipeUsers>
       <li>Refinery</li>
@@ -212,7 +212,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Plastic>120</Plastic>
+      <Plastic>160</Plastic>
     </products>
     <recipeUsers>
       <li>Refinery</li>

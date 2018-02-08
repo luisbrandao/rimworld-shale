@@ -50,7 +50,7 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
+      <MaxHitPoints>140</MaxHitPoints>
       <MarketValue>0.9</MarketValue>
       <Mass>0.2</Mass>
       <Flammability>2.0</Flammability>
