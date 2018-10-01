@@ -28,7 +28,7 @@
       <Chemfuel>25</Chemfuel>
     </products>
     <recipeUsers>
-  	  <li>Refinery</li>
+  	  <li>BiofuelRefinery</li>
   	</recipeUsers>
   </RecipeDef>
   <RecipeDef> <!-- MakeOilFromShale -->
@@ -59,7 +59,7 @@
       <OilBarrel>20</OilBarrel>
     </products>
     <recipeUsers>
-      <li>Refinery</li>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
   </RecipeDef>
   <RecipeDef> <!-- MakePlasticFromOil -->
@@ -90,7 +90,7 @@
       <Plastic>40</Plastic>
     </products>
     <recipeUsers>
-      <li>Refinery</li>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
   </RecipeDef>
   <RecipeDef> <!-- MakeSynthreadFromPlastic -->
@@ -121,7 +121,7 @@
       <Synthread>10</Synthread>
     </products>
     <recipeUsers>
-      <li>Refinery</li>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
   </RecipeDef>
 
@@ -153,7 +153,7 @@
       <Chemfuel>100</Chemfuel>
     </products>
     <recipeUsers>
-  	  <li>Refinery</li>
+  	  <li>BiofuelRefinery</li>
   	</recipeUsers>
   </RecipeDef>
   <RecipeDef> <!-- BulkMakeOilFromShale -->
@@ -184,7 +184,7 @@
       <OilBarrel>80</OilBarrel>
     </products>
     <recipeUsers>
-      <li>Refinery</li>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
   </RecipeDef>
   <RecipeDef> <!-- BulkMakePlasticFromOil -->
@@ -215,7 +215,7 @@
       <Plastic>160</Plastic>
     </products>
     <recipeUsers>
-      <li>Refinery</li>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
   </RecipeDef>
 </Defs>

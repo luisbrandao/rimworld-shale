@@ -12,6 +12,11 @@
     <soundDrop>ChunkRock_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <deepCommonality>5</deepCommonality>
+    <deepCountPerPortion>35</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>20</min>
+      <max>40</max>
+    </deepLumpSizeRange>
     <statBases>
       <MarketValue>1.0</MarketValue>
       <Mass>0.8</Mass>
@@ -42,7 +47,7 @@
   <ThingDef ParentName="ResourceBase"> <!-- Plastic -->
     <defName>Plastic</defName>
     <label>plastic</label>
-    <description>Plastic is the general common term for a wide range of synthetic or semi-synthetic materials used in a huge, range of applications. </description>
+    <description>Plastic is the general common term for a wide range of synthetic or semi-synthetic materials used in a huge, range of applications.</description>
     <graphicData>
       <texPath>Item/plasticA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -50,13 +55,16 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
       <MarketValue>0.9</MarketValue>
-      <Mass>0.2</Mass>
+      <Mass>0.1</Mass>
+      <MaxHitPoints>140</MaxHitPoints>
       <Flammability>2.0</Flammability>
       <DeteriorationRate>0.1</DeteriorationRate>
       <SharpDamageMultiplier>0.2</SharpDamageMultiplier>
       <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+      <StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
     </statBases>
     <thingCategories>
         <li>Manufactured</li>
