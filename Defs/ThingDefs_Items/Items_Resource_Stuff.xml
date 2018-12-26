@@ -76,7 +76,7 @@
       <commonality>0.20</commonality>
       <constructEffect>ConstructWood</constructEffect>
       <color>(179,244,255)</color>
-      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
       <statFactors>
