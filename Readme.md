@@ -7,7 +7,7 @@ Plastic is a cheap construction material. Really easy to deal with, but highly f
 
 Numbers:
 * Each shale rock can be mined for 40 shale
-* 10 Shale -> 20 Oil
+* 30 Shale -> 20 Oil
 * 20 Crude Oil -> 25 Chemfuel
 * 10 Crude Oil -> 30 Plastic
 * 25 Plastic -> 10 Synthread
@@ -24,3 +24,27 @@ Bulk traders should always have some form of shale:
 
 * (?) Remove vanilla wood and organics chemfuel recipe.
 * (?) Shale as a building material
+
+
+Check out my other mods!
+
+More Medications - Reborn
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1601812699
+
+Hardcore Storytellers
+- https://steamcommunity.com/sharedfiles/filedetails/?id=831774478
+
+Simple Loom
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1489517427
+
+Boots and Stuff
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1488970545
+
+Minigun2
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1588721300
+
+Chitin
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1488933307
+
+Shale - from oil to plastic
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1248055193
