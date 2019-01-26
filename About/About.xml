@@ -3,7 +3,9 @@
   <name>Shale - from oil to plastic</name>
   <author>Techmago</author>
   <url>https://github.com/techmago/rimworld-shale</url>
-	<targetVersion>1.0.2059</targetVersion>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
   <description>
     # Rimworld - Shale
     This is a Rimworld mod that adds a rock called shale to the world. Shale is a pretty common rock (pretty much like steel) both overground and underground and have a fairly generous yield

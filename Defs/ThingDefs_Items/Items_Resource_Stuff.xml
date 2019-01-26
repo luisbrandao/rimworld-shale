@@ -19,7 +19,7 @@
     </deepLumpSizeRange>
     <statBases>
       <MarketValue>1.0</MarketValue>
-      <Mass>0.8</Mass>
+      <Mass>0.6</Mass>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
@@ -37,7 +37,7 @@
     <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>2.5</MarketValue>
-      <Mass>0.8</Mass>
+      <Mass>0.5</Mass>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
@@ -55,8 +55,8 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <statBases>
-      <MarketValue>0.9</MarketValue>
-      <Mass>0.1</Mass>
+      <MarketValue>0.09</MarketValue>
+      <Mass>0.08</Mass>
       <MaxHitPoints>140</MaxHitPoints>
       <Flammability>2.0</Flammability>
       <DeteriorationRate>0.1</DeteriorationRate>
@@ -67,7 +67,7 @@
       <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
     </statBases>
     <thingCategories>
-        <li>Manufactured</li>
+        <li>ResourcesRaw</li>
     </thingCategories>
     <stuffProps>
       <categories>
