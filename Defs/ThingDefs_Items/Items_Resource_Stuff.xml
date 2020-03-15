@@ -69,6 +69,7 @@
     <thingCategories>
         <li>ResourcesRaw</li>
     </thingCategories>
+    <smeltable>true</smeltable>
     <stuffProps>
       <categories>
         <li>Metallic</li>
@@ -88,7 +89,6 @@
         <DoorOpenSpeed>1.5</DoorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
       </statFactors>
-      <smeltable>true</smeltable>
     </stuffProps>
   </ThingDef>
 </Defs>
