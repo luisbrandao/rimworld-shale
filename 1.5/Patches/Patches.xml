@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- https://gist.github.com/Zhentar/4a1b71cea45b9337f70b30a21d868782 -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>Shale</li>
+                </thingDef>
+                <countRange>
+                    <min>50</min>
+                    <max>200</max>
+                </countRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>OilBarrel</li>
+                </thingDef>
+                <countRange>
+                    <min>20</min>
+                    <max>100</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>Plastic</li>
+                </thingDef>
+                <countRange>
+                    <min>20</min>
+                    <max>100</max>
+                </countRange>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>Shale</li>
+                </thingDef>
+                <countRange>
+                    <min>60</min>
+                    <max>400</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>OilBarrel</li>
+                </thingDef>
+                <countRange>
+                    <min>100</min>
+                    <max>400</max>
+                </countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>
+                    <li>Plastic</li>
+                </thingDef>
+                <countRange>
+                    <min>200</min>
+                    <max>600</max>
+                </countRange>
+            </li>
+        </value>
+    </Operation>
+</Patch>

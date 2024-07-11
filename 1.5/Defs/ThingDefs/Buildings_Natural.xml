@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="RockBase">
+      <defName>MineableShale</defName>
+      <label>Shale rock</label>
+      <graphicData>
+          <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <color>(68, 68, 68)</color>
+          <colorTwo>(19, 19, 19)</colorTwo>
+      </graphicData>
+      <statBases>
+          <MaxHitPoints>1500</MaxHitPoints>
+      </statBases>
+      <description>Shale rock rich in oil.</description>
+      <building>
+        <isResourceRock>true</isResourceRock>
+        <mineableThing>Shale</mineableThing>
+        <mineableYield>40</mineableYield>
+        <mineableScatterCommonality>1</mineableScatterCommonality>
+        <mineableScatterLumpSizeRange>
+          <min>30</min>
+          <max>50</max>
+        </mineableScatterLumpSizeRange>
+      </building>
+  </ThingDef>
+</Defs>
